@@ -1,5 +1,5 @@
 {
-  "name": "javascript-lp-solver",
+  "name": "@mudont/js-milp-solver",
   "description": "Easy to use, JSON oriented Linear Programming and Mixed Int. Programming Solver",
   "version": "0.4.24",
   "private": false,

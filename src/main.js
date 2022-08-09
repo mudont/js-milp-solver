@@ -31,7 +31,12 @@ var External = require("./External/main.js");
 // Place everything under the Solver Name Space
 var Solver = function () {
 
-    "use strict";
+    // XXX turn of strict mode to avoid this error:
+    // .../jsMILPSolver/src/main.js:134
+    //  this.lastSolvedModel = model;
+    // ^
+    // TypeError: Cannot set properties of undefined (setting 'lastSolvedModel')
+    //"use strict";
 
     this.Model = Model;
     this.branchAndCut = branchAndCut;
